@@ -1,0 +1,31 @@
+{
+  "name": "tictactoe",
+  "version": "0.1.0",
+  "description": "Es un modulo de un juego entre el usuario y el computador, mientras que el usuario marca \"O\" el computador marca una \"X\", cuando uno de los dos haya completado de \"O\" o de \"X\" de forma vertical, horizontal o diagonal gana la partida.",
+  "main": "dist/src/tictactoe.js",
+  "scripts": {
+    "build": "babel src/tictactoe.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dahibe/Tic-Tac-Toe.git"
+  },
+  "keywords": [
+    "tic",
+    "tac",
+    "toe",
+    "ta",
+    "te",
+    "ti",
+    "javascript"
+  ],
+  "author": "Dahiana Benitez <dahia810@gmail.com> (twitter.com/dahianita)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
